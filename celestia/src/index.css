@@ -137,6 +137,14 @@ a { color: inherit; }
 .hero-cta { display:inline-flex; align-items:center; gap:22px; padding:17px 21px 17px 24px; color:#42101f; background:#a0ffd2; text-decoration:none; text-transform:uppercase; letter-spacing:.11em; font-family:'DM Mono',monospace; font-size:11px; transition:transform .25s,background .25s; }
 .hero-cta:hover { transform:translateY(-4px); background:#fff1ad; }
 .hero-cta svg { width:16px; height:16px; }
+
+/* Catch the signal CTA: 3x label with a "Register now" subheading */
+.hero-cta--signal { align-items:center; gap:18px; padding:16px 22px; text-align:left; }
+.hero-cta--signal .hero-cta-copy { display:flex; flex-direction:column; gap:3px; line-height:1; }
+.hero-cta--signal .hero-cta-title { font-size:33px; line-height:.95; letter-spacing:.01em; }
+.hero-cta--signal .hero-cta-sub { font-size:11px; letter-spacing:.18em; font-weight:600; opacity:.75; }
+.hero-cta--signal svg { width:22px; height:22px; }
+@media (max-width:760px){ .hero-cta--signal .hero-cta-title { font-size:26px; } .hero-cta--signal { gap:12px; padding:13px 16px; } }
 .hero-meta { display:flex; justify-content:space-between; width:min(100%,1040px); margin:50px auto 0; padding-top:16px; border-top:1px solid rgba(255,241,173,.34); font-family:'DM Mono',monospace; text-transform:uppercase; font-size:10px; letter-spacing:.12em; color:#ffd5d1; animation: rise .8s .44s both; }
 .orbit-art { position:absolute; width:min(27vw,370px); aspect-ratio:1; right:8%; top:20%; border:1px solid rgba(255,241,173,.23); border-radius:50%; transform:rotate(-28deg); pointer-events:none; animation: orbit-drift 28s linear infinite; }
 .orbit-art:before,.orbit-art:after { content:""; position:absolute; inset:12%; border:1px solid rgba(160,255,210,.32); border-radius:50%; transform:rotate(61deg) scaleX(.47); }
