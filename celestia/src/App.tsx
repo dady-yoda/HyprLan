@@ -14,6 +14,7 @@ import {
 } from 'lucide-react';
 
 const REGISTRATION_URL = 'https://unstop.com/p/celestia-hyperlan-1769766?lb=w1SZtjxW';
+const SIGNAL_URL = 'https://unstop.com/o/OP7CDwH?lb=useTribW&utm_medium=Share&utm_source=fjdokwzi30409&utm_campaign=Online_coding_challenge';
 
 const railWords = ['make something matter', '24 hours, no neat boxes', 'ideas leave orbit', 'open innovation'];
 const faqs = [
@@ -92,8 +93,12 @@ function App() {
         </h1>
         <div className="hero-subline">
           <p className="hero-copy">A 24-hour build-a-thon for people who <strong>don’t think in one lane.</strong></p>
-          <a className="hero-cta" href={REGISTRATION_URL} target="_blank" rel="noreferrer">
-            Catch the signal <ArrowDownRight aria-hidden="true" />
+          <a className="hero-cta hero-cta--signal" href={SIGNAL_URL} target="_blank" rel="noreferrer">
+            <span className="hero-cta-copy">
+              <span className="hero-cta-title">Catch the signal</span>
+              <span className="hero-cta-sub">Register now</span>
+            </span>
+            <ArrowDownRight aria-hidden="true" />
           </a>
         </div>
         <div className="hero-meta">
