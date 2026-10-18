@@ -66,5 +66,5 @@ hackathon at `https://<project>.vercel.app/celestia/`.
 - Registration buttons point to the Unstop listing (`REGISTRATION_URL` in
   `celestia/src/App.tsx`).
 - Fonts and logos live in `celestia/public/` and are served under `/celestia/`.
-- The HyprLan footer image `assets/img-00.png` is not included in the original
-  source; add it to `hyprlan/assets/` if you want that figure to render.
+- HyprLan photographs are CC BY-SA images from Wikimedia Commons and Flickr;
+  the full credit line sits in the page footer.
