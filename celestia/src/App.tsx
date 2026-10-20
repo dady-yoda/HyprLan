@@ -101,7 +101,7 @@ function App() {
           </a>
         </div>
         <div className="hero-meta">
-          <span>06—07 November 2026</span>
+          <span>05—06 November 2026</span>
           <span>HyprLAN × RRCE, Bangalore</span>
           <span>Any field. Any big question.</span>
         </div>
@@ -158,7 +158,7 @@ function App() {
             <span className="step-num">03 — BUILD IN PERSON</span>
             <h3>Go make it real</h3>
             <p>Selected teams join us at RRCE for 24 hours of original, hands-on building. Your idea is the launchpad—not the finished thing.</p>
-            <span className="step-tag">06—07 November 2026</span>
+            <span className="step-tag">05—06 November 2026</span>
           </article>
         </div>
       </section>
@@ -273,7 +273,7 @@ function App() {
             <h2 id="finale-title">Bring the<br /><span>weird idea.</span></h2>
           </div>
           <div className="finale-action">
-            <p>November 6—7 / Bangalore</p>
+            <p>November 5—6 / Bangalore</p>
             <a className="hero-cta" href={REGISTRATION_URL} target="_blank" rel="noreferrer">
               Register on Unstop <ArrowUpRight aria-hidden="true" />
             </a>
